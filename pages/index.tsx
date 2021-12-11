@@ -41,10 +41,10 @@ export default function Home() {
       <Project icon={GiWallet} text="Final Project Wallet MINT" link="https://github.com/Natalia977/PF-Wallet-Mint" gridArea="p2" />
       <Project icon={SiYoutubemusic} text="Music player" link="https://github.com/Natalia977/music_player" gridArea="p4" />
       <Project icon={ImFilm} text="Breaking Bad App" link="https://github.com/Natalia977/Breaking-Bad-App" gridArea="p6" />
-      <Project text="project 7" gridArea="p7" />
+      {/* <Project text="project 7" gridArea="p7" />
       <Project text="project 8" gridArea="p8" />
       <Project text="project 9" gridArea="p9" />
-      <Project text="project 10" gridArea="p10" />
+      <Project text="project 10" gridArea="p10" /> */}
       <VStack>
         <Text>Contact me!</Text>
         <Text></Text>
