@@ -26,7 +26,7 @@ export default function Project({ text, link, icon, ...props }) {
             {icon && (
                 <Icon
                 zIndex={-1}
-                    boxSise="100px"
+                    
                     fontSize= "80px"
                     as={icon}
                     position="absolute"
