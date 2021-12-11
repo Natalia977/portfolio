@@ -26,8 +26,8 @@ export default function Home() {
         gridArea="i"
       />
       <VStack gridArea="t" >
-        <Heading>Hi! I'm Natalia Suarez</Heading>
-        <Text>I'm Full Stack Developer and this is my portfolio</Text>
+        <Heading>Hi! I am Natalia Suarez</Heading>
+        <Text>I am Full Stack Developer and this is my portfolio</Text>
         
       </VStack>
       <Project 
