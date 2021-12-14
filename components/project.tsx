@@ -15,7 +15,7 @@ export default function Project({ text, link, icon, ...props }) {
         <Link
             w="full"
             h="full"
-            minH="100px"
+            minH="200px"
             href={link}
             target="_blank"
             ref={ref}
@@ -25,14 +25,14 @@ export default function Project({ text, link, icon, ...props }) {
 
             {icon && (
                 <Icon
-                zIndex={-1}
-                    
-                    fontSize= "80px"
+                    zIndex={-1}
+                    boxSize="150px"
                     as={icon}
                     position="absolute"
                     top="50%"
                     left="50%"
                     transform="translateX(-50%) translateY(-50%)"
+                    color= {isOpen? "rgba(255, 255, 255, 0.8)": "rgba(255, 255, 255, 0.4)"}
                 />
             )}
             <Grid placeItems="center" {...props} w="full" h="full">
