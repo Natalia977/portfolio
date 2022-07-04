@@ -13,7 +13,7 @@ export default function Info() {
         >
             <Heading>Hi! I am Natalia Suarez</Heading>
             <Text align={["center", "left"]}>
-                I am License in Information Systems and Full Stack Developer. This is my portfolio. Here you will find some of my projects
+                I am License in Information Systems and Full Stack Developer. This is my portfolio. Here you can see my projects with the details of the applied technologies.
             </Text>
             <HStack spacing={6} >
                 <Link href="https://www.linkedin.com/in/natalia-suarez-full-stack-developer/?locale=en_US" target="_blank" >
