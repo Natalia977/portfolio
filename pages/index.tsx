@@ -3,6 +3,8 @@ import Project from "../components/project";
 import { GiSittingDog, GiWallet } from "react-icons/gi";
 import { SiYoutubemusic } from "react-icons/si";
 import { ImFilm } from "react-icons/im";
+import { ImOffice } from "react-icons/im";
+
 import Info from "@/components/Info";
 
 export default function Home() {
@@ -33,7 +35,7 @@ export default function Home() {
       <Project icon={GiWallet} text="Final Project Wallet MINT" link="https://github.com/Natalia977/PF-Wallet-Mint" gridArea="p2" />
       <Project icon={SiYoutubemusic} text="Music player" link="https://github.com/Natalia977/music_player" gridArea="p3" />
       <Project icon={ImFilm} text="Breaking Bad App" link="https://github.com/Natalia977/Breaking-Bad-App" gridArea="p4" />
-      <Project icon={ImFilm} text="Administracion de Consorcios" link="https://github.com/Natalia977/Breaking-Bad-App" gridArea="p5" />
+      <Project icon={ImOffice} text="Administracion de Consorcios" link="https://github.com/Natalia977/MSL" gridArea="p5" />
       {/* <Project text="project..." gridArea="p6" />
       <Project text="project..." gridArea="p7" />
       <Project text="project..." gridArea="p8" />
